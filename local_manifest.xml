@@ -7,9 +7,12 @@
 <remove-project name="LineageOS/android_frameworks_base" />
 
 <!-- Our Project -->
-<project path="vendor/lineage" name="LineageDust/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
-<project path="packages/apps/Settings" name="LineageDust/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1" />
+<project path="vendor/lineage" name="LineageDust/android_vendor_lineage.git" remote="github" revision="lineage-18.1-test" />
+<project path="packages/apps/Settings" name="LineageDust/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1-test" />
 <project path="frameworks/base" name="LineageDust/android_frameworks_base.git" remote="github" revision="lineage-18.1" />
+
+<!-- SoftAPManager -->
+     <project path="packages/apps/SoftAPManager" name="DerpFest-11/packages_apps_SoftAPManager.git" remote="github" revision="11" />
 
 <!-- Trees -->
 <project path="device/xiaomi/ginkgo" name="RahulPalXDA/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-18.1" /> 
