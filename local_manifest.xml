@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
-
-<!-- Remove Project -->
-<remove-project name="hardware_xiaomi" />
   
-<!-- Trees -->
-<project path="device/xiaomi/ginkgo" name="RahulPalXDA/device_xiaomi_ginkgo.git" remote="github" revision="arrow-12.1" /> 
-<project path="kernel/xiaomi/ginkgo" name="ArrowOS-Devices/android_kernel_xiaomi_ginkgo.git" remote="github" revision="arrow-12.1" />
-<project path="vendor/xiaomi/ginkgo" name="ArrowOS-Devices/android_vendor_xiaomi_ginkgo.git" remote="github" revision="arrow-12.1" />
-<project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera.git" remote="github" revision="arrow-12.0-a3" />
+  <remote name="pixel-devices-blobs-gitlab"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          revision="twelve" />
+  
+<!-- Trees --> 
+<project path="device/xiaomi/ginkgo" name="GinkgoHub/android_device_xiaomi_ginkgo.git" remote="github" revision="elixir" /> 
+<project path="device/xiaomi/ginkgo-sepolicy" name="PixelExperience-Devices/device_xiaomi_ginkgo-sepolicy.git" remote="github" revision="twelve" />
+<project path="kernel/xiaomi/ginkgo" name="ArrowOS-Devices/android_kernel_xiaomi_ginkgo.git" remote="github" revision="arrow-12.0" />
+<project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo.git" remote="pixel-devices-blobs-gitlab" />
 
 </manifest>
