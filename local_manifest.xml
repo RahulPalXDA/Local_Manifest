@@ -5,11 +5,17 @@
 <remove-project name="LineageOS/android_vendor_lineage" />
 <remove-project name="LineageOS/android_packages_apps_Settings" />
 <remove-project name="LineageOS/android_frameworks_base" />
+<remove-project name="LineageOS/android_packages_apps_Updater" />
+<remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
 
 <!-- Our Project -->
-<project path="vendor/lineage" name="LineageDust/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
-<project path="packages/apps/Settings" name="LineageDust/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1" />
-<project path="frameworks/base" name="LineageDust/android_frameworks_base.git" remote="github" revision="lineage-18.1" />
+<project path="vendor/lineage" name="LineMOD/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
+<project path="frameworks/base" name="LineMOD/android_frameworks_base.git" remote="github" revision="lineage-18.1" />
+<project path="packages/apps/Updater" name="LineMOD/android_packages_apps_Updater.git" remote="github" revision="lineage-18.1" />
+<project path="packages/apps/Settings" name="LineMOD/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1" />
+<project path="packages/apps/DocumentsUI" name="LineMOD/android_packages_apps_DocumentsUI.git" remote="github" revision="lineage-18.1" />
+<project path="packages/apps/RemovePackages" name="LineMOD/android_packages_apps_RemovePackages.git" remote="github" revision="lineage-18.1" />
+<project path="packages/apps/GCamGOPrebuilt" name="LineMOD/android_packages_apps_GCamGOPrebuilt.git" remote="github" revision="lineage-18.1" />
 
 <!-- Trees -->
 <project path="device/xiaomi/ginkgo" name="RahulPalXDA/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-18.1" /> 
