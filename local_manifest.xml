@@ -2,7 +2,7 @@
 <manifest> 
   
 <!-- Trees -->
-<project path="device/xiaomi/tulip" name="RahulPalXDA/android_device_xiaomi_tulip.git" remote="github" revision="12" /> 
+<project path="device/xiaomi/tulip" name="muti605/android_device_xiaomi_tulip.git" remote="github" revision="12" /> 
 <project path="device/xiaomi/sdm660-common" name="muti605/device_xiaomi_sdm660-common.git" remote="github" revision="12" />
 <project path="kernel/xiaomi/sdm660" name="muti605/android_kernel_xiaomi_sdm660.git" remote="github" revision="arrow-12.1" />
 <project path="vendor/xiaomi/tulip" name="muti605/vendor_xiaomi_tulip.git" remote="github" revision="12" />
