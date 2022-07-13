@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Remove Project -->
+<remove-project name="LineageOS/android_packages_apps_Settings" />
+
 <!-- Sources -->
 <project path="vendor/qcom/opensource/healthd-ext" name="Linedroid/android_vendor_qcom-opensource_healthd-ext.git" remote="github" revision="lineage-19.1" />
+<project path="packages/apps/Settings" name="Linedroid/android_packages_apps_Settings.git" remote="github" revision="lineage-19.1" />
 
 <!-- Trees -->
 <project path="device/xiaomi/ginkgo" name="Linedroid/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-19.1" /> 
