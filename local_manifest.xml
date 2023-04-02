@@ -4,6 +4,14 @@
   <remote  name="RahulPalXDA-gitlab"
            fetch="https://gitlab.com/RahulPalXDA" />
 
+ <!-- REMOVE -->
+ <remove-project name="LineageOS/android_vendor_lineage" />
+ <remove-project name="LineageOS/android_packages_apps_Settings" />
+
+ <!-- REPLACEMENTS -->
+ <project path="vendor/lineage" name="ModageOS/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
+ <project path="packages/apps/Settings" name="ModageOS/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1" />
+
  <!-- Trees -->
  <project path="device/xiaomi/ginkgo" name="RahulPalXDA/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-18.1" />
  <project path="device/xiaomi/sm6125-common" name="LineageOS/android_device_xiaomi_sm6125-common.git" remote="github" revision="lineage-18.1" />
@@ -11,5 +19,6 @@
  <project path="vendor/xiaomi" name="vendor_xiaomi.git" remote="RahulPalXDA-gitlab" revision="lineage-18.1" />
 
  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r383902b1" name="clang.git" remote="RahulPalXDA-gitlab" revision="r383902b1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r383902b1" name="clang.git" remote="RahulPalXDA-gitlab" revision="r383902b1" />
+ 
 </manifest>
