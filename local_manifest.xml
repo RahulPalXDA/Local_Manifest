@@ -8,11 +8,13 @@
  <remove-project name="LineageOS/android_vendor_lineage" />
  <remove-project name="LineageOS/android_packages_apps_Settings" />
  <remove-project name="LineageOS/android_frameworks_base" />
+ <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
 
  <!-- REPLACEMENTS -->
  <project path="vendor/lineage" name="ModageOS/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
  <project path="packages/apps/Settings" name="ModageOS/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1" />
  <project path="frameworks/base" name="ModageOS/android_frameworks_base.git" remote="github" revision="lineage-18.1" />
+ <project path="packages/apps/DocumentsUI" name="ModageOS/android_packages_apps_DocumentsUI.git" remote="github" revision="lineage-18.1" />
 
  <!-- Trees -->
  <project path="device/xiaomi/ginkgo" name="RahulPalXDA/android_device_xiaomi_ginkgo.git" remote="github" revision="lineage-18.1" />
