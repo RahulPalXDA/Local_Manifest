@@ -13,7 +13,7 @@
  <!-- REPLACEMENTS -->
  <project path="vendor/lineage" name="ModageOS/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
  <project path="packages/apps/Settings" name="ModageOS/android_packages_apps_Settings.git" remote="github" revision="lineage-18.1" />
- <project path="frameworks/base" name="ModageOS/android_frameworks_base.git" remote="github" revision="lineage-18.1" />
+ <project path="frameworks/base" name="ModageOS/android_frameworks_base.git" remote="github" revision="modageos-18.1" />
  <project path="packages/apps/DocumentsUI" name="ModageOS/android_packages_apps_DocumentsUI.git" remote="github" revision="lineage-18.1" />
 
  <!-- Trees -->
