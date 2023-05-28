@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="RahulPalXDA-gitlab"
+           fetch="https://gitlab.com/RahulPalXDA" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/ginkgo" name="GinkgoHub/android_device_xiaomi_ginkgo.git" remote="github" revision="xt" />
+ <project path="kernel/xiaomi/ginkgo" name="GinkgoHub/android_kernel_xiaomi_ginkgo.git" remote="github" revision="thirteen" />
+ <project path="vendor/xiaomi/ginkgo" name="GinkgoHub/android_vendor_xiaomi_ginkgo.git" remote="github" revision="thirteen" />
+
+</manifest>
