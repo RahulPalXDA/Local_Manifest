@@ -4,6 +4,9 @@
   <remote  name="RahulPalXDA-gitlab"
            fetch="https://gitlab.com/RahulPalXDA" />
 
+ <!-- REMOVE -->
+ <remove-project name="vendor_pixel-framework" />
+
  <!-- Trees -->
  <project path="device/xiaomi/ginkgo" name="GinkgoHub/android_device_xiaomi_ginkgo.git" remote="github" revision="xt" />
  <project path="kernel/xiaomi/ginkgo" name="GinkgoHub/android_kernel_xiaomi_ginkgo.git" remote="github" revision="thirteen" />
