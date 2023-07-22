@@ -20,7 +20,7 @@
  <project path="frameworks/base" name="ModageOS/android_frameworks_base.git" remote="github" revision="lineage-18.1" />
  <project path="packages/apps/DocumentsUI" name="ModageOS/android_packages_apps_DocumentsUI.git" remote="github" revision="lineage-18.1" />
  <project path="packages/apps/Backgrounds" name="ModageOS/android_packages_apps_Backgrounds.git" remote="github" revision="lineage-18.1" />
- <project path="packages/apps/Dialer" name="ModageOS/android_packages_apps_Dialer.git" remote="github" revision="lineage-18.1" />
+ <project path="packages/apps/Dialer" name="ModageOS/android_packages_apps_Dialer.git" remote="github" revision="modage-18.1" />
 
 <!-- Extras -->
 <project path="vendor/google/pixel-extra-files" name="ModageOS/vendor_google_pixel-extra-files.git" remote="github" revision="master" />
